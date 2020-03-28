@@ -1,0 +1,1 @@
+cmd_/home/osboxes/Downloads/Lab8/week9_nondynamic/week9.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/osboxes/Downloads/Lab8/week9_nondynamic/week9.ko /home/osboxes/Downloads/Lab8/week9_nondynamic/week9.o /home/osboxes/Downloads/Lab8/week9_nondynamic/week9.mod.o;  true
